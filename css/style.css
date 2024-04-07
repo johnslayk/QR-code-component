@@ -1,0 +1,43 @@
+html{
+    background-color: #D5E1EF;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.cartao{
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    width: 280px;
+    height: 457px;
+    border-radius: 20px;
+    font-family: "Outfit", sans-serif;
+}
+
+.cartao img{
+    max-width: 280px;   
+    border-radius: 20px;
+}
+
+.cartao h1{
+    max-width: 288px;
+    color: hsl(218, 44%, 22%);
+    padding-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cartao h2{
+    max-width: 256px;
+    padding-top: 20px;
+    color:hsl(220, 15%, 55%);
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
